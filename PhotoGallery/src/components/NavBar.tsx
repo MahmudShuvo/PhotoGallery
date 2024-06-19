@@ -2,7 +2,10 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <div className="navbar bg-base-100 justify-between">
+  <a className="font-bold text-xl">Gallery </a>
+  <button>LogOut</button>
+</div>
   )
 }
 
